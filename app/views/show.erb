@@ -1,3 +1,7 @@
 this is the show
 <%= @article.title %>
 <%= @article.content %>
+
+<form action="/articles/<%= @articles.id%>/delete">
+  <input type="submit">
+</form>
