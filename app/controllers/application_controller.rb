@@ -44,9 +44,9 @@ class ApplicationController < Sinatra::Base
     p params["title"]
     @article = Article.find(params["id"].to_i)
     if @article.update(param_article)
-    # redirect "/articles/#{@article.id}"
+    redirect "/articles/#{@article.id}"
   
-    # end
+    end
 end
 
  
