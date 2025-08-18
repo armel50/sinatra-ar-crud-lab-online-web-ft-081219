@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'activerecord', :require => 'active_record'
-gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
+gem 'activerecord', '>= 7.1.5.2', :require => 'active_record'
+gem 'sinatra-activerecord', '>= 2.0.14', :require => 'sinatra/activerecord'
 
 gem 'sinatra'
 gem 'pry-nav'
